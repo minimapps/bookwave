@@ -24,6 +24,7 @@
 <body>
   <h1>BookWave Privacy Policy</h1>
   <p><strong>Effective date:</strong> June 1, 2026</p>
+  <p><strong>Last updated:</strong> June 5, 2026</p>
 
   <p>
     BookWave is an iOS app for reading EPUB books, listening with text-to-speech, and tracking reading and listening progress.
@@ -37,8 +38,11 @@
   </p>
 
   <p>
-    BookWave stores data on your device and may sync data using Apple services such as iCloud, CloudKit,
-    or iCloud Drive, depending on your device settings and how you use the app.
+    BookWave stores data on your device. When you are signed in to iCloud, library metadata such as book
+    titles, folder organization, reading progress, highlights, and bookmarks may sync through Apple's
+    CloudKit service in your private iCloud account. Imported EPUB files may sync through iCloud Drive in
+    BookWave's app container. If iCloud is unavailable, BookWave may keep some data only on your device
+    until iCloud becomes available again.
   </p>
 
   <p>
@@ -65,12 +69,15 @@
 
   <h2>Highlights, Bookmarks, and Statistics</h2>
   <p>
-    BookWave may store highlights, bookmarks, reading progress, listening sessions, daily reading or listening time,
-    and estimated words read or listened to. Highlights may include the text you selected.
+    BookWave may store highlights, bookmarks, and reading progress. Highlights may include the text you selected.
+    When iCloud is available, highlights, bookmarks, and reading progress may sync across your devices through
+    CloudKit as part of your library metadata.
   </p>
 
   <p>
-    This information may sync through Apple iCloud or CloudKit when available and enabled on your device.
+    BookWave may also store reading and listening statistics on your device, such as daily reading or listening
+    time and estimated words read or listened to. These statistics are used for in-app statistics features and
+    are not synced across devices as part of the library sync described above.
   </p>
 
   <h2>Subscriptions and Purchases</h2>
@@ -125,6 +132,12 @@
   <h2>Data Deletion</h2>
   <p>
     You can delete imported books, highlights, bookmarks, and app data from within the app where supported.
+    BookWave also provides an option to delete synced library data, which removes synced library metadata
+    from CloudKit and imported EPUB files from BookWave's iCloud Drive container for your Apple ID, including
+    on your other devices when sync completes.
+  </p>
+
+  <p>
     You may also remove app data from your device or iCloud using iOS and iCloud settings.
   </p>
 
